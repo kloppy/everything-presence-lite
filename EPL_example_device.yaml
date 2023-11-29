@@ -1,0 +1,11 @@
+substitutions:
+  name: everything-presence-lite-FFFFFF
+  friendly_name: EPL example room
+packages:
+  EPLstef: !include EPL_kloppy.yaml
+api:
+  encryption:
+    key: "79+ewAxRpaLwRG8h6Tdf5wPxDK0jVZ7gA0t00njacQ4="
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
